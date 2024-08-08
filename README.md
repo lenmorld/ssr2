@@ -16,3 +16,5 @@ instead of waiting for JS to be loaded in the browser, then rendering
 
 - Node-express serves React app on public/index.html, which requests script bundle.js
 - bundle.js contains React app, built using esbundle
+
+- `npm run dev-no-ssr`

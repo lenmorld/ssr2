@@ -7,8 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-test": "esbuild src/App.jsx --bundle --outfile=out.js",
     "start": "nodemon server/index.js",
-    "dev": "npm run build:client && npm start"
-
+    "dev-no-ssr": "npm run build:client && npm start"
   },
   "keywords": [],
   "author": "",
